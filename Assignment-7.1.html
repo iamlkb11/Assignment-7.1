@@ -1,0 +1,28 @@
+<html><!-- Head of the Root -->
+    <head><!-- child sub root of the html tag as head tag  -->
+    <!-- it is a title tag -->
+		<title>Calling Function</title>
+	</head>
+    <!-- it is a body tag -->
+		<body>
+    <!-- it is a script tag -->
+		  <script language="JavaScript">
+  	     // Global variable
+  	     var c="";
+	
+    	   /* increment of the count by 1 */
+			   function count()
+          {
+     	      c=prompt("Enter the number for count");
+            c++;
+    		    document.write("Count = "+c);
+  			   }
+      </script>
+  
+      <p> Call function for 3 times </p>
+      <input type="button" value="Calculate" onClick='count();'>  
+      <input type="button" value="Calculate" onClick='count();'>  
+      <input type="button" value="Calculate" onClick='count();'>  
+
+    </body>
+</html>
